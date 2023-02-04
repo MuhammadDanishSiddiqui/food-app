@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="flex flex-col xl:flex-row justify-center items-center px-4 py-4 md:px-8 lg:px-12">
-      <div className="flex flex-col w-full xl:w-2/4 pr-12">
+      <div className="flex flex-col text-center xl:text-left w-full xl:w-2/4">
         <p className="font-GilroyBold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-darkPrimary">
           Book <span className="text-secondary">Private Chef</span>
           <br /> for your <br /> Dinner{" "}
