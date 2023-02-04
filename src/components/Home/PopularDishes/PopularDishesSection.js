@@ -9,7 +9,7 @@ const PopularDishesSection = () => {
           Our Most <br /> <span className="text-secondary">Popular Dishes</span>{" "}
           <br /> This Month
         </p>
-        <button className="font-GilroyBold bg-secondary text-white text-xl px-8 py-2 rounded-full">
+        <button className="font-GilroyBold bg-secondary text-white text-base md:text-xl px-5 md:px-8 py-2 rounded-full">
           See all
         </button>
       </div>
