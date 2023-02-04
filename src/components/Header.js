@@ -47,7 +47,7 @@ const Header = () => {
         </div>
       </div>
       {open && (
-        <div className="flex lg:hidden flex-col justify-start items-center pt-8 fixed right-0 top-0 w-60 h-full bg-darkPrimary">
+        <div className="flex z-40 lg:hidden flex-col justify-start items-center pt-8 fixed right-0 top-0 w-60 h-full bg-darkPrimary">
           <button
             onClick={() => setOpen(!open)}
             className="self-end mr-4 cursor-pointer"

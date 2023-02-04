@@ -35,3 +35,17 @@ export const categories = [
     title: "Birthdays",
   },
 ];
+
+export const countries = [
+  "Country A",
+  "Country B",
+  "Country C",
+  "Country D",
+  "Country E",
+  "Country F",
+  "Country G",
+  "Country H",
+  "Country I",
+  "Country J",
+  "Country K",
+];
