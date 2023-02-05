@@ -58,7 +58,7 @@ const Header = () => {
             return (
               <Link
                 key={text}
-                className={`text-darkPrimary ${
+                className={`${
                   pathname === link
                     ? "font-GilroySemiBold before:content-[''] before:absolute before:w-full before:bg-secondary before:h-1 before:top-12"
                     : "font-GilroyMedium"
@@ -70,7 +70,7 @@ const Header = () => {
             );
           })}
           <Link
-            className={`text-darkPrimary ${
+            className={`${
               pathname === "/signup"
                 ? "font-GilroySemiBold before:content-[''] before:absolute before:w-full before:bg-secondary before:h-1 before:top-12"
                 : "font-GilroyMedium"
@@ -80,7 +80,7 @@ const Header = () => {
             Sign Up
           </Link>
           <Link
-            className={`text-darkPrimary ${
+            className={`${
               pathname === "/login"
                 ? "font-GilroySemiBold before:content-[''] before:absolute before:w-full before:bg-secondary before:h-1 before:top-12"
                 : "font-GilroyMedium"

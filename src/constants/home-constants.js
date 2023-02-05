@@ -49,3 +49,41 @@ export const countries = [
   "Country J",
   "Country K",
 ];
+
+export const addressList = [
+  {
+    icon: "/assets/images/location.png",
+    text: "Park Avenue South, New York, 74812, United States",
+  },
+  {
+    icon: "/assets/images/email.png",
+    text: "contact@chefprive.com",
+  },
+  {
+    icon: "/assets/images/phone.png",
+    text: "000-123-456",
+  },
+];
+
+export const linksList = [
+  {
+    path: "/",
+    text: "Home",
+  },
+  {
+    path: "/how-it-works",
+    text: "How it works",
+  },
+  {
+    path: "/our-chefs",
+    text: "Our Chefs",
+  },
+  {
+    path: "/reviews",
+    text: "Reviews",
+  },
+  {
+    path: "/whats-new",
+    text: "What's new",
+  },
+];

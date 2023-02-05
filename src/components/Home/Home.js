@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import CategoriesSection from "./Categories/CategoriesSection";
 import PopularDishesSection from "./PopularDishes/PopularDishesSection";
 import ReviewsSection from "./ReviewsSection";
+import SliderSection from "./SliderSection/SliderSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AppStoreSection />
       <PopularDishesSection />
       <CategoriesSection />
+      <SliderSection />
     </>
   );
 };

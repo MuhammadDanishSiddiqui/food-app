@@ -44,6 +44,7 @@ const Banner = () => {
                     {countries.map((country) => {
                       return (
                         <p
+                          key={country}
                           className="font-GilroyBold text-sm"
                           onClick={() => {
                             setSelectedCountry(country);

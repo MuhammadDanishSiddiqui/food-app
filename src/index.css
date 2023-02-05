@@ -38,3 +38,16 @@
   src: url("../public/assets/fonts/Gilroy-SemiBold.ttf");
 }
 
+.slick-next {
+  background: #FF9E2C !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+}
+
+.slick-prev  {
+  background: #FF9E2C !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 50%;
+}
